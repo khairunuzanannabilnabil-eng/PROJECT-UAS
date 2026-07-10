@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alamat Warkop RAOS</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(
+                rgba(0,0,0,0.6),
+                rgba(0,0,0,0.6)
+            ),
+            url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+        }
+
+        .navbar{
+            background-color: rgba(111,78,55,0.95);
+        }
+
+        .judul{
+            text-align: center;
+            color: white;
+            padding-top: 120px;
+            margin-bottom: 30px;
+        }
+
+        .judul h1{
+            font-weight: bold;
+            text-shadow: 2px 2px 10px black;
+        }
+
+        .card-raos{
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            color: white;
+            border: 1px solid rgba(255,255,255,0.2);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+        }
+
+        iframe{
+            width: 100%;
+            height: 300px;
+            border-radius: 15px;
+            border: none;
+        }
+
+        .footer{
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+
+        .btn-raos{
+            background-color: #8B4513;
+            color: white;
+            border: none;
+        }
+
+        .btn-raos:hover{
+            background-color: #6f3410;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">WARKOP RAOS☕</a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="Menu.html">Menu</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="Tentang.html">Tentang</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="Kontak.html">Kontak</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="Alamat.html">Alamat</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="Visi&Misi 2.html">Visi & Misi</a>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+
+    <div class="judul">
+        <h1 class="display-4">📍 Alamat Warkop RAOS</h1>
+        <p class="lead">Nikmati Kopi Terbaik dengan Suasana Nyaman</p>
+    </div>
+
+    <div class="card-raos p-4 mb-4">
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <h3><i class="bi bi-geo-alt-fill"></i> Informasi Lokasi</h3>
+                <hr>
+
+                <p>
+                    <strong>Alamat:</strong><br>
+                    Jl. S. Parman - Stabat
+                </p>
+
+                <p>
+                    <strong>Telepon:</strong><br>
+                    <i class="bi bi-telephone-fill"></i>
+                    0895-0743-1958
+                </p>
+
+                <p>
+                    <strong>Jam Operasional:</strong><br>
+                    Senin - Minggu<br>
+                    10.00 WIB - 00.00 WIB
+                </p>
+
+                <h5>Fasilitas:</h5>
+                <ul>
+                    <li>📶 WiFi Gratis</li>
+                    <li>🪑 Tempat Duduk Nyaman</li>
+                    <li>💨 Kipas Angin</li>
+                    <li>🚻 Toilet Bersih</li>
+                    <li>🔌 Stop Kontak</li>
+                    <li>🚗 Area Parkir</li>
+                </ul>
+
+            </div>
+
+            <div class="col-md-6">
+                <h3><i class="bi bi-map-fill"></i> Peta Lokasi</h3>
+                <hr>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.2691838027954!2d98.44432097497396!3d3.7514552962224337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30372bb8da74626b%3A0x2088142fd3045b87!2sWarkop%20RAOS!5e0!3m2!1sid!2sid!4v1782068108429!5m2!1sid!2sid"
+                    width="100%"
+                    height="350"
+                    style="border:0; border-radius:15px;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+                <div class="text-center mt-3">
+                    <a href="https://maps.google.com/?q=Warkop+RAOS"
+                       target="_blank"
+                       class="btn btn-warning">
+                        Lihat di Google Maps
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="text-center mb-4">
+        <a href="index.html" class="btn btn-success">
+            ⬅ Kembali ke Home
+        </a>
+    </div>
+
+    <div class="footer">
+        <p>© Warkop RAOS | Nikmat, Santai, dan Bersahabat</p>
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
